@@ -1,0 +1,38 @@
+---
+name: Tests
+
+on:
+  push:
+    tags-ignore:
+    - '**'
+    branches:
+    - main
+  pull_request:
+    branches:
+    - main
+
+jobs:
+  build:
+    name: Tests
+
+    runs-on: ubuntu-latest
+    services:
+      docker:
+        image: docker:dind
+        options: --privileged --shm-size=2g
+        volumes:
+          - /var/run/docker.sock:/var/run/docker.sock:ro
+
+    steps:
+    - name: Set up Go
+      uses: actions/setup-go@v5
+      with:
+        go-version: 1.22.x
+
+    - name: Check out code into the Go module directory
+      uses: actions/checkout@v4
+
+    - name: Test
+      run: |
+        docker build --tag test:me -f test/sample/Dockerfile test/sample/data
+        go run -mod=mod github.com/onsi/ginkgo/v2/ginkgo run -v ./...
