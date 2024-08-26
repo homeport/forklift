@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	github.com/gonvenience/ytbx v1.4.4
-	github.com/google/go-containerregistry v0.20.1
+	github.com/google/go-containerregistry v0.20.2
 	github.com/homeport/dyff v1.9.0
 	github.com/olekukonko/tablewriter v0.0.5
 	github.com/onsi/ginkgo/v2 v2.20.1
