@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     services:
       docker:
-        image: docker:dind
+        image: docker.io/library/docker:dind@sha256:b0c1179ea32ad77bdb7b852b037e54b11022304c2f2662af1954ef53869314b2
         options: --privileged --shm-size=2g
         volumes:
           - /var/run/docker.sock:/var/run/docker.sock:ro
