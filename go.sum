@@ -52,8 +52,8 @@ github.com/gonvenience/text v1.0.8 h1:yIxiyXnKDqfe8JDPldZYaeYHU19XOPNN5VFPETCyNI
 github.com/gonvenience/text v1.0.8/go.mod h1:pUCCo022AtxoY2LJfJPNBzBc0oC2/Vp+tx8UaIc5RR8=
 github.com/gonvenience/wrap v1.2.0 h1:CwAoa60QIBVmQn/aUregAbk9FstEr17k9vCYpKF972c=
 github.com/gonvenience/wrap v1.2.0/go.mod h1:iNijaTmFD8+ORmNp9iS+dSBcCJrmIwwyoYLUngToGdk=
-github.com/gonvenience/ytbx v1.4.4 h1:jQopwyaLsVGuwdxSiN4WkXjsEaFNPJ3V4lUj7eyEpzo=
-github.com/gonvenience/ytbx v1.4.4/go.mod h1:w37+MKCPcCMY/jpPNmEklD4xKqrOAVBO6kIWW2+uI6M=
+github.com/gonvenience/ytbx v1.4.5 h1:ZU6kru0UxzitYKUPurk65Z5eGT1dA/aJkx/N7GnWako=
+github.com/gonvenience/ytbx v1.4.5/go.mod h1:PAXCECQFS5xtZTrbB1bQHRm+gCX17M2T+D7b408kZ6U=
 github.com/google/go-cmp v0.6.0 h1:ofyhxvXcZhMsU5ulbFiLKl/XBFqE1GSq7atu8tAmTRI=
 github.com/google/go-cmp v0.6.0/go.mod h1:17dUlkBOakJ0+DkrSSNjCkIjxS6bF9zb3elmeNGIjoY=
 github.com/google/go-containerregistry v0.20.2 h1:B1wPJ1SN/S7pB+ZAimcciVD+r+yV/l/DSArMxlbwseo=
@@ -62,8 +62,8 @@ github.com/google/pprof v0.0.0-20241210010833-40e02aabc2ad h1:a6HEuzUHeKH6hwfN/Z
 github.com/google/pprof v0.0.0-20241210010833-40e02aabc2ad/go.mod h1:vavhavw2zAxS5dIdcRluK6cSGGPlZynqzFM8NdvU144=
 github.com/google/uuid v1.6.0 h1:NIvaJDMOsjHA8n1jAhLSgzrAzy1Hgr+hNrb57e+94F0=
 github.com/google/uuid v1.6.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
-github.com/gorilla/mux v1.8.0 h1:i40aqfkR1h2SlN9hojwV5ZA91wcXFOvkdNIeFDP5koI=
-github.com/gorilla/mux v1.8.0/go.mod h1:DVbg23sWSpFRCP0SfiEN6jmj59UnW/n46BH5rLB71So=
+github.com/gorilla/mux v1.8.1 h1:TuBL49tXwgrFYWhqrNgrUNEY92u81SPhu7sTdzQEiWY=
+github.com/gorilla/mux v1.8.1/go.mod h1:AKf9I4AEqPTmMytcMc0KkNouC66V3BtZ4qD5fmWSiMQ=
 github.com/grpc-ecosystem/grpc-gateway/v2 v2.24.0 h1:TmHmbvxPmaegwhDubVz0lICL0J5Ka2vwTzhoePEXsGE=
 github.com/grpc-ecosystem/grpc-gateway/v2 v2.24.0/go.mod h1:qztMSjm835F2bXf+5HKAPIS5qsmQDqZna/PgVt4rWtI=
 github.com/homeport/dyff v1.9.4 h1:JqPRQgcUe21XiixSOMoHvPkYYw+kgq0ADMKh0Hgh3+E=
