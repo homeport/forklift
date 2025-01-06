@@ -36,7 +36,7 @@ require (
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/gonvenience/bunt v1.4.0 // indirect
 	github.com/gonvenience/neat v1.3.14 // indirect
-	github.com/gonvenience/term v1.0.2 // indirect
+	github.com/gonvenience/term v1.0.3 // indirect
 	github.com/gonvenience/text v1.0.8 // indirect
 	github.com/gonvenience/wrap v1.2.1 // indirect
 	github.com/google/go-cmp v0.6.0 // indirect
