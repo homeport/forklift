@@ -50,8 +50,8 @@ github.com/gonvenience/term v1.0.2 h1:qKa2RydbWIrabGjR/fegJwpW5m+JvUwFL8mLhHzDXn
 github.com/gonvenience/term v1.0.2/go.mod h1:wThTR+3MzWtWn7XGVW6qQ65uaVf8GHED98KmwpuEQeo=
 github.com/gonvenience/text v1.0.8 h1:yIxiyXnKDqfe8JDPldZYaeYHU19XOPNN5VFPETCyNI0=
 github.com/gonvenience/text v1.0.8/go.mod h1:pUCCo022AtxoY2LJfJPNBzBc0oC2/Vp+tx8UaIc5RR8=
-github.com/gonvenience/wrap v1.2.0 h1:CwAoa60QIBVmQn/aUregAbk9FstEr17k9vCYpKF972c=
-github.com/gonvenience/wrap v1.2.0/go.mod h1:iNijaTmFD8+ORmNp9iS+dSBcCJrmIwwyoYLUngToGdk=
+github.com/gonvenience/wrap v1.2.1 h1:k8cbG42+Z+qPS7WO87IKculFVgffEdI753G3SW0tJwQ=
+github.com/gonvenience/wrap v1.2.1/go.mod h1:2kZvOb+r839tTaTj1//JZJ+BpN/4R8Y8vDeRJuUWCWg=
 github.com/gonvenience/ytbx v1.4.5 h1:ZU6kru0UxzitYKUPurk65Z5eGT1dA/aJkx/N7GnWako=
 github.com/gonvenience/ytbx v1.4.5/go.mod h1:PAXCECQFS5xtZTrbB1bQHRm+gCX17M2T+D7b408kZ6U=
 github.com/google/go-cmp v0.6.0 h1:ofyhxvXcZhMsU5ulbFiLKl/XBFqE1GSq7atu8tAmTRI=
