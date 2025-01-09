@@ -24,9 +24,8 @@ import (
 	"fmt"
 	"os"
 	"os/exec"
+	"slices"
 	"strings"
-
-	"golang.org/x/exp/slices"
 )
 
 func Edit(input string) (output string, err error) {
