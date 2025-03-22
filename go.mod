@@ -1,18 +1,17 @@
 module github.com/homeport/forklift
 
-go 1.22.7
-toolchain go1.23.7
+go 1.23.0
 
 require (
 	github.com/gonvenience/ytbx v1.4.6
-	github.com/google/go-containerregistry v0.20.2
+	github.com/google/go-containerregistry v0.20.3
 	github.com/homeport/dyff v1.9.4
 	github.com/olekukonko/tablewriter v0.0.5
-	github.com/onsi/ginkgo/v2 v2.22.2
-	github.com/onsi/gomega v1.36.2
+	github.com/onsi/ginkgo/v2 v2.23.3
+	github.com/onsi/gomega v1.36.3
 	github.com/spf13/cobra v1.9.1
 	github.com/spf13/pflag v1.0.6
-	golang.org/x/exp v0.0.0-20241210194714-1829a127f884
+	golang.org/x/exp v0.0.0-20250305212735-054e65f0b394
 	gopkg.in/yaml.v3 v3.0.1
 )
 
@@ -20,7 +19,6 @@ require (
 	github.com/Azure/go-ansiterm v0.0.0-20230124172434-306776ec8161 // indirect
 	github.com/BurntSushi/toml v1.4.0 // indirect
 	github.com/Microsoft/go-winio v0.6.2 // indirect
-	github.com/containerd/log v0.1.0 // indirect
 	github.com/containerd/stargz-snapshotter/estargz v0.16.3 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/distribution/reference v0.6.0 // indirect
@@ -68,13 +66,12 @@ require (
 	go.opentelemetry.io/otel/metric v1.35.0 // indirect
 	go.opentelemetry.io/otel/sdk v1.35.0 // indirect
 	go.opentelemetry.io/otel/trace v1.35.0 // indirect
-	golang.org/x/net v0.35.0 // indirect
-	golang.org/x/sync v0.11.0 // indirect
-	golang.org/x/sys v0.30.0 // indirect
-	golang.org/x/term v0.29.0 // indirect
-	golang.org/x/text v0.22.0 // indirect
+	golang.org/x/net v0.37.0 // indirect
+	golang.org/x/sync v0.12.0 // indirect
+	golang.org/x/sys v0.31.0 // indirect
+	golang.org/x/term v0.30.0 // indirect
+	golang.org/x/text v0.23.0 // indirect
 	golang.org/x/time v0.11.0 // indirect
-	golang.org/x/tools v0.30.0 // indirect
-	google.golang.org/protobuf v1.36.5 // indirect
+	golang.org/x/tools v0.31.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
