@@ -40,8 +40,8 @@ github.com/go-task/slim-sprig/v3 v3.0.0 h1:sUs3vkvUymDpBKi3qH1YSqBQk9+9D/8M2mN1v
 github.com/go-task/slim-sprig/v3 v3.0.0/go.mod h1:W848ghGpv3Qj3dhTPRyJypKRiqCdHZiAzKg9hl15HA8=
 github.com/gogo/protobuf v1.3.2 h1:Ov1cvc58UF3b5XjBnZv7+opcTcQFZebYjWzi34vdm4Q=
 github.com/gogo/protobuf v1.3.2/go.mod h1:P1XiOD3dCwIKUDQYPy72D8LYyHL2YPYrpS2s69NZV8Q=
-github.com/gonvenience/bunt v1.4.0 h1:xRAANCgSmQwGoHIyWg80yFgomTiblBayUUSBBPjDHK4=
-github.com/gonvenience/bunt v1.4.0/go.mod h1:J9S2b1ZmUKdvybPxhq0hhrIvAwxcUXJjerudNa2Fhdw=
+github.com/gonvenience/bunt v1.4.1 h1:dBqGzf560AQYGN25UT3zKl6+Tg2jVvno7DZR+h0lwMs=
+github.com/gonvenience/bunt v1.4.1/go.mod h1:qRer2vyR+sChC9PHBywgboR2eIL5HFobW4QLnVZfaTM=
 github.com/gonvenience/idem v0.0.1 h1:SMqv4DI2ErBOsoohVyqBOeCCLrag6N7iClwJbmZBTYo=
 github.com/gonvenience/idem v0.0.1/go.mod h1:Br/o1pWtrbiPTuZrn7nPV6TJQL0qbaoGNmJZ8+A7MyU=
 github.com/gonvenience/neat v1.3.15 h1:qRMZzVP/HtLsQLKZGW8NGZIXdH1TMHsPjMJe2tvzDqk=
