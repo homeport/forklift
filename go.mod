@@ -36,7 +36,7 @@ require (
 	github.com/gonvenience/idem v0.0.1 // indirect
 	github.com/gonvenience/neat v1.3.15 // indirect
 	github.com/gonvenience/term v1.0.3 // indirect
-	github.com/gonvenience/text v1.0.8 // indirect
+	github.com/gonvenience/text v1.0.9 // indirect
 	github.com/google/go-cmp v0.7.0 // indirect
 	github.com/google/pprof v0.0.0-20250128161936-077ca0a936bf // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
