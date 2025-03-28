@@ -2,6 +2,8 @@ module github.com/homeport/forklift
 
 go 1.23.0
 
+toolchain go1.24.1
+
 require (
 	github.com/gonvenience/ytbx v1.4.7
 	github.com/google/go-containerregistry v0.20.3
@@ -64,7 +66,7 @@ require (
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp v1.35.0 // indirect
 	go.opentelemetry.io/otel/metric v1.35.0 // indirect
 	go.opentelemetry.io/otel/trace v1.35.0 // indirect
-	golang.org/x/net v0.37.0 // indirect
+	golang.org/x/net v0.38.0 // indirect
 	golang.org/x/sync v0.12.0 // indirect
 	golang.org/x/sys v0.31.0 // indirect
 	golang.org/x/term v0.30.0 // indirect
