@@ -6,7 +6,7 @@ toolchain go1.24.1
 
 require (
 	github.com/gonvenience/ytbx v1.4.7
-	github.com/google/go-containerregistry v0.20.4
+	github.com/google/go-containerregistry v0.20.5
 	github.com/homeport/dyff v1.10.1
 	github.com/olekukonko/tablewriter v0.0.5
 	github.com/onsi/ginkgo/v2 v2.23.4
