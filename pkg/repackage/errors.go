@@ -24,4 +24,4 @@ import "errors"
 
 // TODO Check wording
 
-var fixupOnEmptyLayer = errors.New("cannot use fixup for an empty layer")
+var errFixupOnEmptyLayer = errors.New("cannot use fixup for an empty layer")

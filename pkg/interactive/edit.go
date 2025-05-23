@@ -52,7 +52,6 @@ func Edit(input string) (output string, err error) {
 	// TODO Introduce {} style replacement option
 	args = append(args, filename)
 
-	fmt.Fprintf(os.Stderr, "Running: %s %v\n", editor, args)
 	var cmd = exec.Command(editor, args...)
 	cmd.Stdin = os.Stdin
 	cmd.Stdout = os.Stdout
