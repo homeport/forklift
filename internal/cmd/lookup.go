@@ -1,4 +1,4 @@
-// Copyright © 2024 The Homeport Team
+// Copyright © 2025 The Homeport Team
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -18,38 +18,20 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-package misc
+package cmd
 
 import (
-	"context"
-	"fmt"
-	"os"
-
-	"github.com/google/go-containerregistry/pkg/name"
-	v1 "github.com/google/go-containerregistry/pkg/v1"
-	"github.com/google/go-containerregistry/pkg/v1/daemon"
-	"github.com/google/go-containerregistry/pkg/v1/remote"
+	"github.com/spf13/cobra"
 )
 
-func LoadImage(ctx context.Context, ref name.Reference) (v1.Image, error) {
-	if image, err := daemon.Image(ref, daemon.WithContext(ctx)); err == nil {
-		return image, nil
-	}
-
-	opts, err := RemoteOptionsFromRef(ctx, ref)
-	if err != nil {
-		return nil, err
-	}
-
-	return remote.Image(ref, opts...)
+// lookupCmd represents the look-up command
+var lookupCmd = &cobra.Command{
+	Use:     "lookup",
+	Aliases: []string{"look-up"},
+	Short:   "Look-up commands for indexes and images",
+	Long:    `Look-up commands for indexes and images`,
 }
 
-func SaveImage(tag name.Tag, img v1.Image, options ...daemon.Option) error {
-	response, err := daemon.Write(tag, img, options...)
-	if err != nil {
-		fmt.Fprintln(os.Stderr, response)
-		return fmt.Errorf("failed to write image: %w", err)
-	}
-
-	return nil
+func init() {
+	rootCmd.AddCommand(lookupCmd)
 }
