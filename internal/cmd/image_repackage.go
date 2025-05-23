@@ -24,7 +24,6 @@ import (
 	"bufio"
 	"bytes"
 	"fmt"
-	"os"
 	"strconv"
 	"strings"
 
@@ -126,9 +125,9 @@ var repackageCmd = &cobra.Command{
 				return err
 			}
 
-			fmt.Fprintf(os.Stdout, "repackage plan (%d entries)\n", len(plan))
+			pout("repackage plan (%d entries)\n", len(plan))
 			for i := range plan {
-				fmt.Fprintf(os.Stdout, "  %s layer=%d (%s)\n",
+				pout("  %s layer=%d (%s)\n",
 					plan[i].Intent,
 					plan[i].OriginalIdx,
 					plan[i].History.CreatedBy,

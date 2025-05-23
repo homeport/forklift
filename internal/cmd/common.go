@@ -22,6 +22,7 @@ package cmd
 
 import (
 	"fmt"
+	"os"
 
 	"github.com/google/go-containerregistry/pkg/name"
 	"github.com/spf13/pflag"
@@ -44,6 +45,11 @@ func (t *tag) Set(s string) (err error) {
 
 func (t *tag) Type() string {
 	return "image tag"
+}
+
+func pout(format string, a ...any) {
+	// TODO Make target configurable via root command-line flag
+	_, _ = fmt.Fprintf(os.Stdout, format, a...)
 }
 
 func humanReadableSize(bytes int64) string {
