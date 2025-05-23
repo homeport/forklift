@@ -43,8 +43,8 @@ var repackageCmdSettings struct {
 var repackageCmd = &cobra.Command{
 	Use:   "repackage",
 	Args:  cobra.MinimumNArgs(1),
-	Short: "TBD",
-	Long:  `TBD`,
+	Short: "Repackage layers of an image",
+	Long:  `Repackage is similar to Git rebase, but for container image layers instead of commits.`,
 	RunE: func(cmd *cobra.Command, args []string) error {
 		ref, err := name.ParseReference(args[0])
 		if err != nil {

@@ -39,8 +39,8 @@ var executableName = func() string {
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
 	Use:   "forklift",
-	Short: "TBD",
-	Long:  `TBD`,
+	Short: "Experimental tool to manipulate container images",
+	Long:  `Experimental tool to manipulate container images in the terminal.`,
 }
 
 func Execute() error { return rootCmd.Execute() }
