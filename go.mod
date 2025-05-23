@@ -2,8 +2,6 @@ module github.com/homeport/forklift
 
 go 1.24.0
 
-toolchain go1.24.1
-
 require (
 	github.com/gonvenience/ytbx v1.4.7
 	github.com/google/go-containerregistry v0.20.5
