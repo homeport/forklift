@@ -139,7 +139,7 @@ func Image(input v1.Image, plan Plan) (v1.Image, error) {
 		// TODO Write comment
 		case FIXUP:
 			if action.Layer == nil {
-				return nil, fixupOnEmptyLayer
+				return nil, errFixupOnEmptyLayer
 			}
 
 			if stage.directory == nil {

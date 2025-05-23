@@ -23,6 +23,7 @@ package repackage_test
 import (
 	"bytes"
 	"fmt"
+	"math/rand/v2"
 	"testing"
 
 	. "github.com/onsi/ginkgo/v2"
@@ -31,7 +32,6 @@ import (
 
 	"github.com/gonvenience/ytbx"
 	"github.com/homeport/dyff/pkg/dyff"
-	"golang.org/x/exp/rand"
 	"gopkg.in/yaml.v3"
 
 	"github.com/google/go-containerregistry/pkg/name"
@@ -49,7 +49,7 @@ func TestRepackage(t *testing.T) {
 func random(n int) string {
 	var buf = make([]rune, n)
 	for i := range buf {
-		buf[i] = lcs[rand.Intn(len(lcs))]
+		buf[i] = lcs[rand.IntN(len(lcs))]
 	}
 
 	return string(buf)

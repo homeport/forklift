@@ -37,8 +37,8 @@ func Create(directory string) (*os.File, error) {
 
 	tw := tar.NewWriter(target)
 	defer func() {
-		tw.Flush()
-		tw.Close()
+		_ = tw.Flush()
+		_ = tw.Close()
 	}()
 
 	return target, filepath.WalkDir(directory, func(path string, d fs.DirEntry, err error) error {
@@ -106,7 +106,7 @@ func write(w io.Writer, path string) error {
 		return err
 	}
 
-	defer file.Close()
+	defer func() { _ = file.Close() }()
 
 	_, err = io.Copy(w, file)
 	return err

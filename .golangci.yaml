@@ -1,0 +1,10 @@
+---
+version: "2"
+linters:
+  default: standard
+  exclusions:
+    rules:
+    - path: .+_test\.go
+      text: "Error return value of `fmt.Fprintf` is not checked"
+      linters:
+      - errcheck

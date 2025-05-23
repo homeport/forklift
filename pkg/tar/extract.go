@@ -36,7 +36,7 @@ func ExtractLayer(layer v1.Layer, dst string) error {
 		return err
 	}
 
-	defer rc.Close()
+	defer func() { _ = rc.Close() }()
 	return ExtractCompressed(rc, dst)
 }
 
@@ -45,7 +45,7 @@ func ExtractCompressed(r io.Reader, dst string) error {
 	if err != nil {
 		return err
 	}
-	defer gzr.Close()
+	defer func() { _ = gzr.Close() }()
 
 	var tr = tar.NewReader(gzr)
 	for {
@@ -94,7 +94,9 @@ func ExtractCompressed(r io.Reader, dst string) error {
 
 			// manually close here after each file operation; defering would cause each file close
 			// to wait until all operations have completed.
-			f.Close()
+			if err := f.Close(); err != nil {
+				return err
+			}
 		}
 	}
 }

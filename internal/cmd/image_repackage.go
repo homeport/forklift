@@ -51,7 +51,7 @@ var repackageCmd = &cobra.Command{
 			return err
 		}
 
-		if repackageCmdSettings.target.Tag.RegistryStr() == "" {
+		if repackageCmdSettings.target.RegistryStr() == "" {
 			defaultTag, err := name.NewTag(ref.String() + "-repackaged")
 			if err != nil {
 				return err
