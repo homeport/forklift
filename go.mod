@@ -1,10 +1,10 @@
 module github.com/homeport/forklift
 
-go 1.24.9
+go 1.25.6
 
 require (
 	github.com/gonvenience/ytbx v1.4.8
-	github.com/google/go-containerregistry v0.20.7
+	github.com/google/go-containerregistry v0.21.0
 	github.com/homeport/dyff v1.10.4
 	github.com/olekukonko/tablewriter v0.0.5
 	github.com/onsi/ginkgo/v2 v2.28.1
