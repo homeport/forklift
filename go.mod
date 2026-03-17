@@ -5,7 +5,7 @@ go 1.25.6
 require (
 	github.com/gonvenience/ytbx v1.4.9
 	github.com/google/go-containerregistry v0.21.2
-	github.com/homeport/dyff v1.11.2
+	github.com/homeport/dyff v1.11.3
 	github.com/olekukonko/tablewriter v0.0.5
 	github.com/onsi/ginkgo/v2 v2.28.1
 	github.com/onsi/gomega v1.39.1
@@ -50,7 +50,7 @@ require (
 	github.com/mattn/go-runewidth v0.0.21 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/mitchellh/go-ps v1.0.0 // indirect
-	github.com/mitchellh/hashstructure v1.1.0 // indirect
+	github.com/mitchellh/hashstructure/v2 v2.0.2 // indirect
 	github.com/moby/docker-image-spec v1.3.1 // indirect
 	github.com/moby/sys/sequential v0.6.0 // indirect
 	github.com/opencontainers/go-digest v1.0.0 // indirect
