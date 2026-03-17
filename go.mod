@@ -3,7 +3,7 @@ module github.com/homeport/forklift
 go 1.25.6
 
 require (
-	github.com/gonvenience/ytbx v1.4.8
+	github.com/gonvenience/ytbx v1.4.9
 	github.com/google/go-containerregistry v0.21.2
 	github.com/homeport/dyff v1.11.2
 	github.com/olekukonko/tablewriter v0.0.5
