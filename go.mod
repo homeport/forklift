@@ -4,7 +4,7 @@ go 1.25.7
 
 require (
 	github.com/gonvenience/ytbx v1.5.0
-	github.com/google/go-containerregistry v0.21.6
+	github.com/google/go-containerregistry v0.21.7
 	github.com/homeport/dyff v1.12.0
 	github.com/olekukonko/tablewriter v0.0.5
 	github.com/onsi/ginkgo/v2 v2.31.0
